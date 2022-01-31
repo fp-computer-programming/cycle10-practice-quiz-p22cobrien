@@ -3,8 +3,8 @@
 def factorial(num):
     sum = ""
     index = 0
-    while index  <= num - 1:
-        sum += (str(index + 1))
+    while index  <= num - 1: # if index is less than num
+        sum += (str(index + 1)) # continuously add the next number
         index += 1
 
     print(sum)
